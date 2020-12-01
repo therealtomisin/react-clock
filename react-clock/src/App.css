@@ -1,0 +1,42 @@
+body{
+    background-color: #011627;
+}
+.App{
+    background-color: #011627;
+    border-radius: 5px;
+    
+}
+header{
+    text-align: center;
+    font-size: 35px;
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.timer-sha{
+    display: flex;
+    justify-content: center;
+}
+.leggo{
+    display: flex;
+    justify-content: space-between;
+}
+.timer-body{
+    margin: 50px;
+    border: 10px solid white;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+#time-left{
+    font-size: 100px;
+}
