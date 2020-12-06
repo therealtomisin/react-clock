@@ -10,10 +10,13 @@ function Timerbody(props) {
                 {props.timer}:{props.seconds}
             </div> 
             <div className = 'startStopReset'>
-                <div onClick = {props.play} id = 'start_stop'>
+                <div className = 'btn' onClick = {props.play} id = 'play'>
                     play
                 </div>
-                <div id = 'reset'>
+                <div className = 'btn' id = 'pause' onClick = {props.stop}>
+                    pause
+                </div>
+                <div className = 'btn' id = 'reset' onClick = {props.reset}>
                     reset
                 </div>
             </div>

@@ -40,3 +40,17 @@ img{
 #time-left{
     font-size: 100px;
 }
+.startStopReset{
+    display: flex;
+    width: 30vh;
+    justify-content: space-around;
+}
+.btn {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 4px;
+}
+.btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
